@@ -1,0 +1,63 @@
+/*
+#ac3c5a  -> body's background color
+#ffbf2d    -> header's background color
+#472b5d -> menu's background color
+#892143 -> footer's background color
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #ac3c5a;
+}
+nav{
+    background-color: #472b5d;
+    text-align: center;
+    padding:20px;
+    margin:0px 20%;  
+}
+a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+header{
+    text-align: center;
+    background-color:#ffbf2d;
+    margin:0px 20%;
+    padding: 40px;
+}
+header h1{
+    color: #fff;
+    margin: 20px;
+}
+section{
+    margin:0px 20%;
+    background-color: beige;
+}
+section img{
+    width:100%;
+}
+section p,h2{
+    padding: 40px;
+    line-height: 20px;
+    font-style: italic;
+}
+footer{
+    margin:0px 20%;
+    background-color: rgb(240, 240, 240);
+    color: rgb(78, 78, 0);
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    margin: 40px;
+}
